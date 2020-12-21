@@ -19,5 +19,5 @@ app.event("app_mention", async ({ event, say }) => {
 export default (req, res) => {
   res.status(200);
   console.log("⚡️ Bolt app is running!");
-  res.send("asdfa");
+  res.send({ challenge: req.body.challenge });
 };
