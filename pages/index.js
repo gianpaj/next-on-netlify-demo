@@ -144,9 +144,6 @@ const Index = () => (
         <a href="/api/redirect">with redirect header</a>
       </li>
       <li>
-        <a href="/api/xml">with content-type XML</a>
-      </li>
-      <li>
         <a href="/api/image">with image response</a> (
         <a href="https://github.com/FinnWoelm/next-on-netlify-demo/tree/master/pages/api/image.js">
           code
